@@ -12,4 +12,5 @@ const arr = [1, 2, 3];
 
 arr
   .filter((number, index) => number === number && index >= 0)
-  .map((number, index) => number * index);
+  .map((number, index) => number * index)
+  .filter((number) => number > 1);
